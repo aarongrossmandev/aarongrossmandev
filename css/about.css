@@ -47,12 +47,22 @@ header .logo {
     flex-shrink: 1;
     align-self: center;
 }
-h3{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Spectral SC', serif;
 }
-p{
+
+p {
     font-family: 'Teko', sans-serif;
     font-weight: 400;
+}
+
+a {
+    font-family: 'Teko', sans-serif;
 }
 .navbar {
     display: flex;
