@@ -237,19 +237,19 @@ a {
 }
 
 .newsletter-email {
-    background-image: url(./images/images/apple-mockup.png);
+    background-image: url(./images/apple-mockup.png);
 }
 
 .receipt-email {
-    background-image: url(./images/images/origin-mockup.png);
+    background-image: url(./images/origin-mockup.png);
 }
 
 .landing-page {
-    background-image: url(./images/images/alienbeats-mockup.png);
+    background-image: url(./images/alienbeats-mockup.png);
 }
 
 .coming-soon {
-    background-image: url(./images/images/loading.png);
+    background-image: url(./images/loading.png);
     display: flex;
 }
 
