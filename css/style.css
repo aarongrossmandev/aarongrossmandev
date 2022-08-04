@@ -383,8 +383,8 @@ i:hover {
 
 @media only screen and (max-width:750px){
     .frontpage-intro-container{
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 2%;
+        margin-right: 10%;
     }
     .frontpage-intro p{
         font-size: 1.15rem;
@@ -406,19 +406,44 @@ i:hover {
     }
   }
 
-  @media only screen and (max-width:600px){
+  @media only screen and (max-width:630px){
     .frontpage-intro-container{
         display: block;
         margin-top: 40%;
-        /* text-align: center; */
-        padding-left: 2%;
-        margin-left: 0;
+        text-align: center;
+        padding-left: 5px;
+        margin-left: 5px;
         margin-right: 0;
         padding-right: 0;
     }
-    .name-text{
-        font-size: 4rem;
+    .frontpage-intro p{
+        padding-right: 4rem;
     }
+    .name-text{
+        font-size: 3.5rem;
+    }
+  }
+  @media only screen and (max-width:525px){
+    .frontpage-socials {
+            width: min(90%, 100%);
+            flex-direction: column;
+            margin: 5% 15%;
+            text-align: center;
+        }
+    
+        .social-links {
+            width: 100%;
+            padding-right: 30%;
+            padding-left: 10%;
+            text-align: center;
+        }
+    
+        .more-about {
+            width: 100%;
+            padding-right: 25%;
+            padding-left: 15%;
+            text-align: center;
+        }
   }
 
   @media only screen and (max-width:500px){

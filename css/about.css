@@ -188,9 +188,11 @@ a {
     color: #fcfffa;
     background-color: #7ab03c;
     padding: 1em 2em;
-    border-radius: 10%;
+    /* margin: 0 2em; */
+    border-radius: 8%;
     text-decoration: none;
-}
+    transition: all 500ms ease;
+ }
 .about-me a:hover{
     color: #7ab03c;
     background-color: #006384;
