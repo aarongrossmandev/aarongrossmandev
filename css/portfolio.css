@@ -161,7 +161,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     text-align: center;
     padding-left: 1em;
     margin-right: 1em;
@@ -411,7 +411,7 @@ i:hover {
     }
 
     .sections {
-        padding-bottom: 3em;
+        padding-bottom: 0;
         padding-left: 10em;
     }
 
