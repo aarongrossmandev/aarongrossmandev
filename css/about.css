@@ -17,7 +17,10 @@
 
 body {
     background-color: #303030;
-    background: #303030;
+    background-image: url(./images/bridge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     min-height: 100%;
     overflow-x: hidden;
 }
@@ -206,6 +209,10 @@ a {
     height: auto;
     box-shadow: 1em 1em #006384;
 }
+.skills-wrapper{
+    background-color: rgba(0, 0, 0, .2);
+    width: 100vw;
+}
 .skills-title{
     width: 100vw;
     text-align: center;
@@ -228,7 +235,7 @@ a {
 .skills{
     text-align: center;
     width: (90%, 100vw);
-    margin: 0 1em 3em;
+    padding: 0 1em 5em;
    }
 
 .skills li{
@@ -238,7 +245,7 @@ a {
     color: #7ab03c;
     list-style: none;
     display: inline-block;
-    padding: .5em 1.5em;
+    padding: .5em .5em;
  }
 .skills li::before{
     font-family: "Font Awesome 6 Brands", "Font Awesome 6 Free";
