@@ -236,6 +236,10 @@ a {
     border-radius: 5% 5% 0 0;
 }
 
+.groupon-email {
+    background-image: url(./images/groupon-mockup.png);
+}
+
 .promotional-email {
     background-image: url(./images/adobe-email-phone-mockup.png);
 }
