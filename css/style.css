@@ -80,30 +80,13 @@ a {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 150%;
+    width: 100%;
     height: 2px;
     background: linear-gradient(to right, #006384, #ffffff);
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 350ms ease-in;
  }
- .nav-link::before {
-     content: "";
-     position: absolute;
-     left: 0;
-     bottom: 0;
-     width: 2px;
-     height: 150%;
-     background: linear-gradient(to top, #006384, #ffffff);
-     transform: scaleY(0);
-     transform-origin: bottom;
-     transition: transform 350ms ease-in;
- }
-.nav-link:hover::before{
-    transform: scaleX(1);
-        transform-origin: top;
-    }
-
  .nav-link:hover::after{
     cursor: pointer;
     transform: scaleX(1);
@@ -282,7 +265,7 @@ a {
     background-color: #000000;
     padding: 2em 0;
     border-top: 2px solid #7ab03c;
-    margin-top: 13em;
+    margin-top: 14em;
 }
 
 .copyright {
